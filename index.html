@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="culculation.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>計算機</p>
+    <input type="text" id="input" class="input"><br>
+    <div>
+    <button class="culculation-plus culculation-buttun" id="culculation-plus">+</button>
+    <button class="culculation-minus culculation-buttun" id="culculation-minus">−</button>
+    <button class="culculation-muliplied culculation-buttun" id="culculation-multiplied">×</button>
+    <button class="culculation-divided culculation-buttun" id="culculation-divided">÷</button><br>
+    <button class="equal" id="equal">＝</button>
+    <button class="clear " id="clear" onclick="clearValue('input');">c</button>
+    </div>
+    <div id="answer"></div>
+    <script src="culculation.js"></script>
+</body>
+</html>
