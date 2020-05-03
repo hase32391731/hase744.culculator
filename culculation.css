@@ -1,0 +1,35 @@
+p{
+    color:black;
+    margin:10px 50px;
+}
+.input{
+    width:200px;
+    margin:10px 50px;
+}
+div{
+    margin:10px 50px;
+}
+
+.culculation-buttun{
+    padding:10px;
+    font-size:120%;
+    border-radius:2px;
+    border: solid 1px #000; 
+    background-color:lightgray;
+}
+
+.equal{
+    margin-top:0px;
+    padding:10px;
+    border-radius:2px;
+    border: solid 1px #000; 
+    background-color:lightgray;
+}
+
+.clear{
+    margin-top:2px;
+    padding: 13px;
+    border-radius:2px;
+    border: solid 1px #000; 
+    background-color:lightgray;
+}
